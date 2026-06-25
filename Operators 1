@@ -1,0 +1,126 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b;
+cout<<"enter a and b : "<<endl;
+cin>>a>>b;
+cout<<"multiplication of a and b "<<a*b<<endl ;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b;
+cout<<"enter a and b : "<<endl;
+cin>>a>>b;
+cout<<"a divided b"<<a/b<<endl ;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b;
+cout<<"enter a and b : "<<endl;
+cin>>a>>b;
+cout<<"a modulas b"<<a%b<<endl ;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b;
+cout<<"enter a and b : "<<endl;
+cin>>a>>b;
+cout<<(a==b)<<endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b;
+cout<<"enter a and b : "<<endl;
+cin>>a>>b;
+cout<<(a!=b)<<endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b;
+cout<<"enter a and b : "<<endl;
+cin>>a>>b;
+cout<<(a>=b)<<endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b;
+cout<<"enter a and b : "<<endl;
+cin>>a>>b;
+cout<<(a<=b)<<endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int a;
+cout<<"enter a and b : "<<endl;
+cin>>a;
+a=a+3;
+cout<<a<<endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b,c;
+cout<<"enter a,b and c : "<<endl;
+cin>>a>>b>>c;
+cout<<(a=b && b!=c)<<endl;
+cout<<(a=b || b!=c)<<endl;
+cout<<(a=b ! b!=c)<<endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b;
+cout<<"enter a,b : "<<endl;
+cin>>a>>b;
+cout<<++a<<endl;
+cout<<--a<<endl;
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b;
+cout<<"enter a,b : "<<endl;
+cin>>a>>b;
+cout<<(a&b)<<endl;
+cout<<(a|b)<<endl;
+cout<<(a^b)<<endl;
+return 0;
+}
