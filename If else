@@ -1,0 +1,56 @@
+#include <iostream>
+using namespace std;
+int main() 
+{int a;
+cout<<"enter a number: "<<endl;
+cin>>a;
+if(a>10 && a<50)
+{
+    cout<<"the given number lies between 10 and 50"<<endl;
+}
+else
+{
+    cout<<"it does not lie btw 10 and 50"<<endl;
+}
+
+
+    return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main() 
+{int a;
+cout<<"enter a year : "<<endl;
+cin>>a;
+if(a%4==0 && a/100!=0)
+{
+    cout<<"given year is an leap year"<<endl;
+}
+else
+{
+    cout<<"given year is not an leap year"<<endl;
+}
+    return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main() 
+{int a;
+cout<<"enter a number : "<<endl;
+cin>>a;
+if(a%3==0 && a%5==0)
+{
+    cout<<"given number is divisible by both 3 and 5"<<endl;
+}
+else
+{
+    cout<<"given number is not divisible by both 3 and 5"<<endl;
+}
+    return 0;
+}
