@@ -12,8 +12,6 @@ else
 {
     cout<<"it does not lie btw 10 and 50"<<endl;
 }
-
-
     return 0;
 }
 
@@ -54,3 +52,90 @@ else
 }
     return 0;
 }
+
+
+
+#include <iostream>
+using namespace std;
+int main() 
+{int a;
+cout<<"enter a number : "<<endl;
+cin>>a;
+if(a>0)
+{
+    cout<<"given number is positive"<<endl;
+}
+else if(a<0)
+{
+    cout<<"given number is negative"<<endl;
+}
+else
+{
+    cout<<"given number is zero"<<endl;
+}
+    return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main() 
+{int a,b,c;
+cout<<"enter three numbers : "<<endl;
+cin>>a>>b>>c;
+if(a>b && a>c)
+{
+    cout<<"a is the largest number\t"<<a<<endl;
+}
+else if(b>a && b>c)
+{
+    cout<<"b is the largest number\t"<<b<<endl;
+}
+else
+{
+    cout<<"c is the largest number\t"<<c<<endl;
+}
+    return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main() 
+{int a;
+cout<<"enter the mark : "<<endl;
+cin>>a;
+if(a>35)
+{
+    cout<<"pass"<<endl;
+}
+else
+{
+    cout<<"fail"<<endl;
+}
+    return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main() 
+{int a;
+cout<<"enter a number : "<<endl;
+cin>>a;
+if(a%11==0 && a%5==0)
+{
+    cout<<"given number is divisible by both 5 and 11"<<endl;
+}
+else
+{
+    cout<<"given number is not divisible by both 5 and 11"<<endl;
+}
+    return 0;
+}
+
+
+
