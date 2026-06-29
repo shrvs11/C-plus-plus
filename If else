@@ -139,3 +139,32 @@ else
 
 
 
+
+#include<iostream>
+using namespace std;
+int main()
+{  int a;
+cout<<"enter your mark :"<<endl;
+cin>>a;
+if(a>=90)
+{
+   cout<<"A Grade"<<endl;
+}
+else if(a>=80 && a<90)
+{
+    cout<<"B Grade"<<endl;
+}
+else if(a>=70 && a<80)
+{
+    cout<<"C Grade"<<endl;
+}
+else if(a>=60 && a<70)
+{
+    cout<<"D Grade"<<endl;
+}
+else
+{
+    cout<<"F Grade"<<endl;
+}
+  return 0;
+}
